@@ -12,7 +12,7 @@ Go will E2E and open Start with Chrome
 Close the browser and get back to the VS Code  
 You will be able to see e2e folder  
 Add new under e2e folder myFirstTest.cy.js  
-Add /// <reference types="cypress"/>  
+Add '/// <reference types="cypress"/>' without '  
 To write a test we need a test runner - mocha  
 After writing the script run command on terminal: npx cypress open  
 E2E configurations >> Chrome >> Specs >> click on myFirstTest.cy.js  
